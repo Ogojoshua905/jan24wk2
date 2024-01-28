@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                Personal Data
+            </legend>
+
+            <ul>
+                <li>
+                    <label for="fname">First Name</label>
+                    <input type="text" name="text" id="fname" required placeholder="Your First Name">
+                </li>
+                <li>
+                    <label for="surname">surname</label>
+                    <input type="text" name="text" id="surname" required placeholder="Your Surname">
+                </li>
+                <li>
+                    <label for="Email">Email Address</label>
+                    <input type="email" name="email" id="email" placeholder="example @abc.com">
+                </li>
+                <li>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="tel" id="phone" required placeholder="+234********">
+                </li>
+                <li>
+                    <label for="dob">Date Of Birth</label>
+                    <input type="date" name="date" id="dob">
+                </li>
+                <li>
+                    <label for="country">Country</label>
+                    <select>
+                        <optgroup label="Africa"></optgroup>
+                        <option value="ng" selected>Nigeria</option>
+                        <option value="gh">Ghana</option>
+                        <option value="sa">South Africa</option>
+
+                        <optgroup label="America"></optgroup>
+                        <option value="mex">Mexico</option>
+                        <option value="br">Brazil</option>
+
+                        <optgroup label="Europe"></optgroup>
+                        <option value="fr">France</option>
+                        <option value="en">England</option>
+
+                        <optgroup label="Asia"></optgroup>
+                        <option value="ch">China</option>
+                        <option value="jp">Japan</option>
+                    </select>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+                <legend>
+                    Official use
+                </legend>
+        </fieldset>
+
+        <input type="submit" value="sign up">
+    </form>
+</body>
+</html>
